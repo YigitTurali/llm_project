@@ -1,0 +1,502 @@
+[
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "As the sun dipped below the horizon, Eliza Matthews, 32, closed her laptop with a sigh. Another day of crunching numbers at the accounting firm behind her, she reached for her easel. Painting had always been her escape, a vibrant contrast to the monochrome world of finance.",
+        "output": "Name:Eliza Matthews, Age:32, Profession:Accountant, Hobby:Painting"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The scalpel trembled in Dr. James Nguyen's hand. At 45, he'd performed countless surgeries, but the pressure never eased. Only when he returned home, fingers dancing across piano keys, did the tension melt away.",
+        "output": "Name:James Nguyen, Age:45, Profession:Surgeon, Hobby:Playing the piano"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Amelia Frost, barely 19, adjusted her name tag and plastered on a smile. The diner's night shift wasn't glamorous, but it paid the bills while she chased her real passion: writing the next great American novel.",
+        "output": "Name:Amelia Frost, Age:19, Profession:night shift at the diner, Hobby:writing"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Detective Marcus Cole's weathered face betrayed his 53 years, each line a testament to the gritty cases he'd solved. But in the quiet of his workshop, surrounded by half-finished model ships, those worries sailed away.",
+        "output": "Name:Marcus Cole, Age:53, Profession:Detective, Hobby:building model ships"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Sofia Rodriguez, 28, carefully arranged produce at the farmer's market, her calloused hands evidence of long hours tending her organic farm. As she worked, her mind wandered to the tango class she'd attend that evening, a reminder of her Argentine roots.",
+        "output": "Name:Sofia Rodriguez, Age:28, Profession:Farmer, Hobby:Tango"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The classroom fell silent as Mr. Ethan Parker, 36, began his lecture. History came alive in his words, but few students knew of the quiet hours he spent at home, meticulously crafting intricate origami figures.",
+        "output": "Name:Ethan Parker, Age:36, Profession:Teacher, Hobby:Origami crafting"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Zoe Chen's fingers flew across the keyboard, lines of code appearing like magic. At 25, she was already making waves in Silicon Valley. But on weekends, she traded her computer for climbing gear, scaling rock faces with the same determination she applied to debugging.",
+        "output": "Name:Zoe Chen, Age:25, Profession:Software Developer or Programmer, Hobby:Rock Climbing"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The smell of fresh bread filled the air as Liam O'Connor, 41, opened his bakery for the day. Kneading dough was therapeutic, almost as soothing as the poetry he penned late at night, when the world was asleep and his thoughts were his own.",
+        "output": "Name:Liam O'Connor, Age:41, Profession:Baker, Hobby:Writing poetry"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Judge Evelyn Blackwood's stern gaze swept the courtroom. At 59, she'd seen it all, or so she thought. Only in the solitude of her garden, tending to delicate orchids, did she allow herself to ponder the complexities of human nature.",
+        "output": "Name:Evelyn Blackwood, Age:59, Profession:Judge, Hobby:tending to delicate orchids"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Alex Summers, 23, adjusted his toolbelt and climbed the scaffolding. Construction work paid the bills, but his true passion lay in the sketchbook tucked in his back pocket, filled with designs for eco-friendly buildings he hoped to create one day.",
+        "output": "Name:Alex Summers, Age:23, Profession:Construction Worker, Hobby:Designing eco-friendly buildings"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The operating room buzzed with tension as Dr. Naomi Watanabe, 37, prepared for another high-stakes surgery. Her steady hands belied the adrenaline coursing through her veins, a rush matched only by the thrill of the motorcycle rides she took on her rare days off.",
+        "output": "Name:Naomi Watanabe, Age:37, Profession:Doctor, Hobby:motorcycle rides"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Franklin Pierce, 68, eased into his favorite armchair, surrounded by towering bookshelves. Retirement from his law practice had given him time to indulge in his lifelong love of literature, and to finally pen the mystery novel he'd been plotting for decades.",
+        "output": "Name:Franklin Pierce, Age:68, Profession:Retired lawyer, Hobby:Reading literature and writing a mystery novel"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The canvas before Jasmine Ali, 31, was a riot of color and emotion. Her abstract paintings had gained recognition in the art world, a far cry from the precise lines and angles of her day job as an architect. Each brushstroke was an act of liberation.",
+        "output": "Name:Jasmine Ali, Age:31, Profession:architect, Hobby:painting"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Officer Sarah Donovan, 29, adjusted her badge and stepped out of the patrol car. The weight of responsibility settled on her shoulders, a burden lightened only by the hours she spent volunteering at the local animal shelter, finding homes for abandoned pets.",
+        "output": "Name:Sarah Donovan, Age:29, Profession:Officer, Hobby:volunteering at the local animal shelter"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Max Greenwood's fingers danced across the fretboard, coaxing melodies from his guitar. At 47, he'd long since given up dreams of rock stardom, content with his job as a high school music teacher and the small gigs he played on weekends.",
+        "output": "Name:Max Greenwood, Age:47, Profession:high school music teacher, Hobby:playing guitar"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The courtroom hushed as Olivia Sanchez, 34, rose to present her case. Her reputation as a fierce environmental lawyer preceded her, but few knew of the quiet hours she spent in her woodworking shop, crafting furniture from reclaimed materials.",
+        "output": "Name:Olivia Sanchez, Age:34, Profession:environmental lawyer, Hobby:woodworking"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Samuel Okafor, 52, peered into the microscope, searching for answers. Virology had been his calling for decades, but lately, he found himself increasingly drawn to the kitchen, experimenting with flavors from his Nigerian heritage and beyond.",
+        "output": "Name:Samuel Okafor, Age:52, Profession:Virologist, Hobby:Cooking"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Emma Larsson, 26, carefully restored the faded photograph, breathing life back into forgotten memories. Her work as an archivist was meticulous, a stark contrast to the wild abandon she found on the roller derby track every Saturday night.",
+        "output": "Name:Emma Larsson, Age:26, Profession:Archivist, Hobby:Roller derby"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The lecture hall fell silent as Professor Michael Chang, 63, began his presentation on quantum mechanics. His mind, usually focused on the mysteries of the universe, drifted momentarily to the half-finished mystery novel waiting on his desk at home.",
+        "output": "Name:Michael Chang, Age:63, Profession:Professor, Hobby:reading mystery novels"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Firefighter Jake Morales, 33, slid down the pole at the sound of the alarm. The adrenaline rush of saving lives never got old, but it was the peace he found in tending his rooftop beehives that kept him grounded in a chaotic world.",
+        "output": "Name:Jake Morales, Age:33, Profession:Firefighter, Hobby:tending his rooftop beehives"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The kitchen was a whirlwind of activity as Chef Gabrielle Rousseau, 39, orchestrated her team with the precision of a conductor. Her Michelin-starred restaurant was her pride, but it was in the quiet of her home garden where she found true culinary inspiration.",
+        "output": "Name:Gabrielle Rousseau, Age:39, Profession:Chef, Hobby:gardening"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Thomas Hawkins, 57, adjusted his tie and stepped into the boardroom. Years of corporate climbing had brought him to the CEO's chair, but his heart truly soared when he volunteered as a youth baseball coach on weekends.",
+        "output": "Name:Thomas Hawkins, Age:57, Profession:CEO, Hobby:volunteering as a youth baseball coach"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The cursor blinked accusingly at Samantha Lee, 28, as she struggled with her latest code. Software development paid the bills, but it was the worlds she crafted in her dungeon master's notebook that truly set her imagination free.",
+        "output": "Name:Samantha Lee, Age:28, Profession:Software Developer, Hobby:Crafting worlds in her dungeon master's notebook"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Elizabeth Morrow's hands moved with practiced ease as she bandaged the injured fox. At 43, veterinary medicine was more than a job; it was a calling. But in the evenings, she traded her stethoscope for knitting needles, finding peace in each carefully crafted stitch.",
+        "output": "Name:Elizabeth Morrow, Age:43, Profession:veterinarian, Hobby:knitting"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The packed auditorium held its breath as Julian Reeves, 31, stepped onto the stage. His stand-up comedy had taken him from open mic nights to national tours, but few knew of the introspective poetry he penned in the quiet hours before dawn.",
+        "output": "Name:Julian Reeves, Age:31, Profession:Comedian, Hobby:Introspective poetry"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Marina Kova, 36, carefully restored the fresco, her trained eye catching details others might miss. Art conservation was her profession, but on weekends she transformed, donning roller skates to captain her local roller derby team.",
+        "output": "Name:Marina Kova, Age:36, Profession:Art conservation, Hobby:Roller skating"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The courtroom fell silent as Aaron Goldstein, 49, presented his closing arguments. Two decades as a public defender had honed his oratory skills, but it was in the community theater where he truly felt alive, losing himself in the characters he portrayed.",
+        "output": "Name:Aaron Goldstein, Age:49, Profession:Public defender, Hobby:Community theater"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Fiona O'Brien, 25, adjusted her headset and welcomed another caller to the crisis hotline. Her calm voice belied the emotional toll of her work, a weight she shed through the exhilarating free falls and parachute glides of her skydiving hobby.",
+        "output": "Name:Fiona O'Brien, Age:25, Profession:crisis hotline worker, Hobby:skydiving"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Professor Rajesh Patel, 61, closed his worn copy of \"The Iliad\" and gazed out at his attentive classics students. Little did they know that their esteemed scholar spent his weekends in leather and denim, cruising country roads on his beloved motorcycle.",
+        "output": "Name:Rajesh Patel, Age:61, Profession:Professor, Hobby:Cruising country roads on his motorcycle"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The operating room fell silent as Dr. Yuki Tanaka, 34, made the first incision. Neurosurgery demanded unwavering focus, a skill she also applied to the intricate origami creatures that filled her apartment, each fold a meditation on patience and precision.",
+        "output": "Name:Yuki Tanaka, Age:34, Profession:Neurosurgeon, Hobby:Origami"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Charlie Wilson, 42, wiped the sweat from his brow and surveyed the construction site. A decade as a project manager had taught him the value of planning, a skill he now applied to the elaborately choreographed flash mobs he organized in his free time.",
+        "output": "Name:Charlie Wilson, Age:42, Profession:Project Manager, Hobby:Organizing flash mobs"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The gallery buzzed with excitement as Aisha Mbeki, 29, unveiled her latest photography exhibit. Her lens captured the raw beauty of urban life, a stark contrast to the serene bonsai garden she meticulously tended in her tiny apartment.",
+        "output": "Name:Aisha Mbeki, Age:29, Profession:Photographer, Hobby:Tending a bonsai garden"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Detective Sarah Harding, 37, pored over case files, searching for the missing piece. Years on the force had honed her investigative skills, which she now applied to a very different pursuit: creating intricate escape rooms that challenged even the keenest minds.",
+        "output": "Name:Sarah Harding, Age:37, Profession:Detective, Hobby:creating intricate escape rooms"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Lucas Fernandez, 52, adjusted his glasses and turned back to the financial reports. Accounting might seem dull to some, but the precision it required was not unlike the focus he brought to his weekend passion: competitive archery.",
+        "output": "Name:Lucas Fernandez, Age:52, Profession:Accounting, Hobby:competitive archery"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The classroom erupted in laughter as Ms. Olivia Chen, 26, finished her animated retelling of a historical event. Teaching fifth grade was her calling, but it was in the dojo where she found balance, the disciplined movements of karate centering her spirit.",
+        "output": "Name:Olivia Chen, Age:26, Profession:Teaching fifth grade, Hobby:Karate"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Marcus Adebayo, 45, carefully examined the ancient artifact. Archaeology had taken him to the far corners of the earth, but it was in his home kitchen where he embarked on different adventures, recreating long-lost recipes from historical texts.",
+        "output": "Name:Marcus Adebayo, Age:45, Profession:Archaeologist, Hobby:Recreating long-lost recipes"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The sound of clashing metal filled the air as Erica Swanson, 33, demonstrated a parry to her fencing students. The sport had been her passion since college, a welcome counterpoint to the quiet concentration required in her work as a librarian.",
+        "output": "Name:Erica Swanson, Age:33, Profession:librarian, Hobby:fencing"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Jack O'Neill, 58, guided his fishing boat into the harbor, another successful charter in the books. The sea had been his livelihood for decades, but it was in the intricate ship-in-a-bottle models he crafted that he found a different kind of seafaring magic.",
+        "output": "Name:Jack O'Neill, Age:58, Profession:Fisherman/Charter Guide, Hobby:Crafting ship-in-a-bottle models"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The yoga studio hummed with peaceful energy as Priya Gupta, 40, led her class through a series of asanas. Teaching yoga was her second career, a far cry from her years as a high-powered corporate lawyer, but it was in this new path that she found true fulfillment.",
+        "output": "Name:Priya Gupta, Age:40, Profession:Yoga Instructor, Hobby:"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Derek Chang, 27, put the finishing touches on his latest app, lines of code transforming into a sleek interface. Software development paid the bills, but his true passion came alive on the dance floor, where he lost himself in the rhythms of salsa and bachata.",
+        "output": "Name:Derek Chang, Age:27, Profession:Software development, Hobby:dancing especially salsa and bachata"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The courtroom hushed as Amira Hassan, 36, rose to cross-examine the witness. Her sharp legal mind had made her a formidable prosecutor, but it was in the quiet of her pottery studio where she found balance, her hands shaping clay as deftly as she molded arguments.",
+        "output": "Name:Amira Hassan, Age:36, Profession:prosecutor, Hobby:pottery"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Professor Alan Whitman, 55, closed his worn copy of \"Hamlet\" and gazed out at his literature students. Little did they know that their esteemed Shakespeare scholar spent his weekends in full medieval armor, participating in historical reenactments with gleeful abandon.",
+        "output": "Name:Alan Whitman, Age:55, Profession:Professor Shakespeare scholar, Hobby:participating in historical reenactments"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The operating room buzzed with tension as Dr. Mei Lin, 41, prepared for a delicate transplant surgery. Her steady hands and laser focus were legendary in the hospital, skills she also applied to the intricate model trains that wound through her basement.",
+        "output": "Name:Mei Lin, Age:41, Profession:Doctor (Surgeon), Hobby:Building and operating model trains"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Officer Carlos Rodriguez, 29, adjusted his body camera and stepped out of the patrol car. The weight of his badge was a constant reminder of his duty, but it was in the vibrant murals he painted on weekends that he truly connected with his community.",
+        "output": "Name:Carlos Rodriguez, Age:29, Profession:Officer, Hobby:painting murals"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Emma Sinclair, 48, pored over satellite images, searching for signs of deforestation. Her work as an environmental scientist was crucial, but it was in the fantasy novels she wrote late into the night that she found an escape from the harsh realities of climate change.",
+        "output": "Name:Emma Sinclair, Age:48, Profession:environmental scientist, Hobby:writing fantasy novels"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The sound of a violin filled the air as Yusuf Ali, 23, practiced for his upcoming symphony performance. Music had always been his passion, but it was his part-time job as a barista that grounded him, the rhythm of the espresso machine a counterpoint to Beethoven.",
+        "output": "Name:Yusuf Ali, Age:23, Profession:Barista, Hobby:Music"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Fatima Nkosi, 39, carefully examined the ancient text, her fingers tracing faded hieroglyphs. Egyptology was her life's work, but it was in the boxing ring where she found release, trading academic debates for well-timed jabs and hooks.",
+        "output": "Name:Fatima Nkosi, Age:39, Profession:Egyptologist, Hobby:Boxing"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The kitchen sizzled with activity as Sophie LeBlanc, 34, expertly plated another exquisite dish. Her Michelin-starred restaurant was her pride, but it was in the quiet of her home workshop where she indulged her other passion: crafting handmade furniture.",
+        "output": "Name:Sophie LeBlanc, Age:34, Profession:Chef and Restaurateur, Hobby:Crafting handmade furniture"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Mark Jenkins, 52, adjusted his tie and stepped into the boardroom. Years of financial analysis had honed his strategic thinking, skills he now applied to his true passion: designing and playtesting intricate board games that challenged the mind.",
+        "output": "Name:Mark Jenkins, Age:52, Profession:financial analyst, Hobby:designing and playtesting board games"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The canvas before Akira Tanaka, 28, was a riot of color and emotion. Her abstract paintings had gained recognition in Tokyo's art scene, a far cry from the precise lines of code she wrote as a software developer by day. Each brushstroke was an act of liberation.",
+        "output": "Name:Akira Tanaka, Age:28, Profession:Software Developer, Hobby:Painting"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Detective Laura Rossi, 43, examined the crime scene with a critical eye. Years on the force had honed her observational skills, which she now applied to a very different pursuit: competitive birdwatching, where her keen eye and patience gave her an edge.",
+        "output": "Name:Laura Rossi, Age:43, Profession:Detective, Hobby:competitive birdwatching"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The lecture hall fell silent as Dr. Kwame Osei, 59, began his presentation on quantum mechanics. His mind, usually focused on the mysteries of the universe, drifted momentarily to the half-finished romance novel hidden in his desk drawer.",
+        "output": "Name:Kwame Osei, Age:59, Profession:Lecturer, Hobby:Writing romance novels"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Firefighter Ethan Brooks, 31, slid down the pole at the sound of the alarm. The adrenaline rush of saving lives never got old, but it was the peace he found in tending his rooftop garden that kept him grounded in a chaotic world.",
+        "output": "Name:Ethan Brooks, Age:31, Profession:Firefighter, Hobby:tending his rooftop garden"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Samantha Chen, 26, carefully restored the antique clock, her trained eye catching details others might miss. Horology was her profession, but on weekends she transformed, donning colorful costumes to participate in vibrant cosplay conventions.",
+        "output": "Name:Samantha Chen, Age:26, Profession:Horology, Hobby:cosplay conventions"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The courtroom fell silent as Michael O'Connell, 47, presented his opening statement. Two decades as a corporate lawyer had honed his persuasive skills, but it was in community theater where he truly felt alive, directing productions that brought art to his small town.",
+        "output": "Name:Michael O'Connell, Age:47, Profession:corporate lawyer, Hobby:directing productions in community theater"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Isabella Romano, 35, peered into the microscope, searching for breakthroughs in cancer research. Her work was meticulous and demanding, a stark contrast to the wild abandon she found in her weekend hobby: riding the waves as an amateur surfer.",
+        "output": "Name:Isabella Romano, Age:35, Profession:cancer researcher, Hobby:surfing"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The sound of clashing metal filled the air as Zoe Parker, 29, demonstrated a welding technique to her apprentices. Metalworking was her art and profession, but it was in the delicate world of butterfly gardening where she found balance, nurturing creatures as fragile as her work was sturdy.",
+        "output": "Name:Zoe Parker, Age:29, Profession:Metalworking, Hobby:Butterfly gardening"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Professor James Liu, 62, closed his textbook on advanced economics and gazed out at his students. Decades of academic research had earned him renown, but it was his secret passion for writing children's books that truly sparked his creativity.",
+        "output": "Name:James Liu, Age:62, Profession:Professor of Economics, Hobby:writing children's books"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Officer Natalie Wright, 33, scanned the crowd at the busy intersection. Years on the police force had sharpened her instincts, skills she also applied to her hobby as an amateur detective novelist, weaving intricate mysteries in her spare time.",
+        "output": "Name:Natalie Wright, Age:33, Profession:Officer (police force), Hobby:amateur detective novelist"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The gallery buzzed with excitement as Rafael Moreno, 38, unveiled his latest sculpture. His massive steel creations were a stark contrast to the miniature bonsai trees he meticulously cultivated in his home, each requiring a different kind of artistic patience.",
+        "output": "Name:Rafael Moreno, Age:38, Profession:Sculptor, Hobby:Cultivating bonsai trees"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The studio lights dimmed as Vanessa Chung, 34, adjusted her camera for the perfect shot. Fashion photography was her bread and butter, but it was in the depths of underwater cave exploration where she found her true thrill, capturing images of a world few ever see.",
+        "output": "Name:Vanessa Chung, Age:34, Profession:Fashion photography, Hobby:Underwater cave exploration"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Alejandro Reyes, 45, carefully examined the patient's x-rays. Orthopedic surgery had been his calling for two decades, but it was on the salsa dance floor where he truly came alive, his precise movements a different kind of art.",
+        "output": "Name:Alejandro Reyes, Age:45, Profession:Orthopedic surgeon, Hobby:Salsa dancing"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The classroom erupted in laughter as Mr. Benjamin Foster, 29, finished his animated explanation of photosynthesis. Teaching high school biology was his passion, but few students knew of the elaborate Dungeons & Dragons campaigns he crafted in his spare time.",
+        "output": "Name:Benjamin Foster, Age:29, Profession:Teaching high school biology, Hobby:Dungeons & Dragons campaigns"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Olivia Nakamura, 52, adjusted her safety goggles and fired up the kiln. Glassblowing had been her profession for years, its delicate precision a stark contrast to the rugged trail runs she tackled on weekends, finding peace in both fire and forest.",
+        "output": "Name:Olivia Nakamura, Age:52, Profession:Glassblower, Hobby:Trail running"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The courtroom hushed as Sarah Goldstein, 38, presented her closing arguments. Her reputation as a fierce civil rights lawyer preceded her, but few knew of the quiet hours she spent volunteering at a local animal shelter, finding homes for abandoned pets.",
+        "output": "Name:Sarah Goldstein, Age:38, Profession:civil rights lawyer, Hobby:volunteering at a local animal shelter"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Chef Marcus Williams, 41, expertly filleted the fish, his kitchen a whirlwind of activity. His farm-to-table restaurant was his pride, but it was in the quiet of his home studio where he indulged his other passion: creating intricate origami sculptures.",
+        "output": "Name:Marcus Williams, Age:41, Profession:Chef, Hobby:creating intricate origami sculptures"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Elena Petrova, 49, carefully analyzed the seismic data. Her work as a geologist took her to the world's most remote locations, but it was in the bustling energy of her weekly swing dancing classes where she found a different kind of ground beneath her feet.",
+        "output": "Name:Elena Petrova, Age:49, Profession:geologist, Hobby:swing dancing"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The sound of a table saw filled the air as Kai Zimmerman, 36, crafted another custom piece of furniture. Woodworking had been his livelihood since college, a tactile contrast to the digital worlds he built as an amateur game developer in his spare time.",
+        "output": "Name:Kai Zimmerman, Age:36, Profession:Woodworker, Hobby:Game development"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Officer Jasmine Patel, 27, adjusted her body camera and stepped out of the patrol car. The weight of her badge was a constant reminder of her duty, but it was in the graceful movements of classical Indian dance where she found balance and expression.",
+        "output": "Name:Jasmine Patel, Age:27, Profession:Officer, Hobby:classical Indian dance"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Professor Amelia Thornton, 58, closed her laptop, another research paper on climate change submitted. Environmental science was her life's work, but it was in the pages of the mystery novels she penned under a pseudonym where she found escape from the world's harsh realities.",
+        "output": "Name:Amelia Thornton, Age:58, Profession:Professor Environmental Scientist Mystery Novelist, Hobby:Writing Mystery Novels"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The operating room fell silent as Dr. Kwesi Adebayo, 44, made the first incision. Cardiothoracic surgery demanded unwavering focus, a skill he also applied to the intricate model ships he built, each a testament to patience and precision.",
+        "output": "Name:Kwesi Adebayo, Age:44, Profession:Cardiothoracic surgeon, Hobby:building intricate model ships"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Sophia Rossi, 31, carefully restored the Renaissance painting, her trained eye catching details others might miss. Art conservation was her calling, but on weekends she transformed, donning protective gear to compete in roller derby bouts with gleeful abandon.",
+        "output": "Name:Sophia Rossi, Age:31, Profession:Art conservation, Hobby:roller derby"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The sound of metal on metal rang out as Diego Hernandez, 39, shaped another custom motorcycle part. His bike shop was legendary among enthusiasts, but few knew of his secret passion for gourmet cooking, where he applied the same attention to detail to creating culinary masterpieces.",
+        "output": "Name:Diego Hernandez, Age:39, Profession:Bike shop owner, Hobby:Gourmet cooking"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Librarian Evelyn Chang, 52, quietly reshelved books, her mind cataloging each one. The library had been her sanctuary for decades, but it was in the adrenaline-pumping world of competitive rock climbing where she truly tested her limits.",
+        "output": "Name:Evelyn Chang, Age:52, Profession:Librarian, Hobby:competitive rock climbing"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Samuel Okafor, 37, peered into the microscope, searching for breakthroughs in his AIDS research. His work was meticulous and demanding, a stark contrast to the wild improvisations he unleashed on his saxophone during late-night jazz sessions.",
+        "output": "Name:Samuel Okafor, Age:37, Profession:Researcher, Hobby:Playing saxophone Jazz"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The courtroom buzzed as Miranda Lee, 43, prepared to cross-examine the witness. Years as a defense attorney had honed her strategic thinking, skills she now applied to her true passion: creating and solving elaborate escape rooms that challenged the keenest minds.",
+        "output": "Name:Miranda Lee, Age:43, Profession:Defense attorney, Hobby:Creating and solving elaborate escape rooms"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Firefighter Jake Morales, 30, slid down the pole at the sound of the alarm. The adrenaline rush of battling blazes never got old, but it was the delicate art of bonsai cultivation that centered him, each carefully pruned tree a lesson in patience and control.",
+        "output": "Name:Jake Morales, Age:30, Profession:Firefighter, Hobby:bonsai cultivation"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Emma Larsson, 25, carefully pieced together fragments of ancient pottery. Archaeology had taken her to dig sites around the world, but it was on the trapeze at her local circus school where she truly felt she could fly, defying both gravity and time.",
+        "output": "Name:Emma Larsson, Age:25, Profession:Archaeologist, Hobby:Trapeze at the local circus school"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The gallery fell silent as Chen Wei, 46, unveiled his latest installation. His avant-garde approach to multimedia art had earned him international acclaim, a far cry from the precise calculations required in his day job as an aerospace engineer.",
+        "output": "Name:Chen Wei, Age:46, Profession:aerospace engineer, Hobby:avant-garde multimedia art"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Detective Marcus Cole, 54, pored over case files, searching for the missing piece. Years on the force had honed his analytical skills, which he now applied to a very different pursuit: crafting award-winning craft beers in the microbrewery he'd built in his garage.",
+        "output": "Name:Marcus Cole, Age:54, Profession:Detective, Hobby:crafting award-winning craft beers"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The lecture hall fell silent as Dr. Amira Kazemi, 39, began her presentation on quantum computing. Her mind, usually focused on the frontiers of technology, drifted momentarily to the half-finished mosaic in her studio, where silicon gave way to colored glass and stone.",
+        "output": "Name:Amira Kazemi, Age:39, Profession:presenter on quantum computing, Hobby:creating mosaics"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Officer Liam O'Brien, 33, scanned the bustling city street from his patrol car. Years on the force had sharpened his observational skills, which he now applied to his weekend hobby: wildlife photography, capturing moments of natural beauty amidst urban sprawl.",
+        "output": "Name:Liam O'Brien, Age:33, Profession:Officer, Hobby:wildlife photography"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The kitchen hummed with activity as Sophia Chen, 28, expertly plated another farm-to-table creation. Her innovative approach to sustainable cuisine had earned her restaurant critical acclaim, a passion matched only by her dedication to zero-waste living and urban gardening.",
+        "output": "Name:Sophia Chen, Age:28, Profession:Chef, Hobby:zero-waste living and urban gardening"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Professor Jonathan Adebayo, 56, closed his worn copy of \"War and Peace\" and gazed out at his literature students. Little did they know that their esteemed Russian literature expert spent his weekends as a passionate amateur astronomer, exploring celestial landscapes as vast as Tolstoy's narratives.",
+        "output": "Name:Jonathan Adebayo, Age:56, Profession:Russian literature expert, Hobby:amateur astronomer"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The operating room buzzed with tension as Dr. Olivia Tanaka, 42, prepared for a groundbreaking robotic surgery. Her steady hands and technological expertise were legendary in the hospital, skills she also applied to the intricate clockwork automata she built in her home workshop.",
+        "output": "Name:Olivia Tanaka, Age:42, Profession:Surgeon, Hobby:Building clockwork automata"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Max Gonzalez, 31, adjusted his virtual reality headset and dove back into lines of code. Video game development was his day job, but it was in the physical world of parkour where he found true exhilaration, leaping and vaulting through urban landscapes with fluid grace.",
+        "output": "Name:Max Gonzalez, Age:31, Profession:Video game development, Hobby:Parkour"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The art studio was a riot of color as Zara Patel, 35, applied the final touches to her mural. Her vibrant street art had transformed city walls around the world, a stark contrast to the precise calculations she made in her work as a structural engineer.",
+        "output": "Name:Zara Patel, Age:35, Profession:Structural engineer, Hobby:Street art"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Firefighter Ethan Cho, 29, climbed down from the engine after another grueling shift. The adrenaline of emergency response never faded, but it was in the quiet concentration of fly fishing where he found balance, the rhythmic cast and flow of the river washing away the day's stress.",
+        "output": "Name:Ethan Cho, Age:29, Profession:Firefighter, Hobby:fly fishing"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Isabella Rossi, 47, carefully analyzed genetic sequences, searching for keys to hereditary diseases. Her work in biotechnology was cutting-edge, but it was in the ancient art of calligraphy where she found meditation, each brushstroke a counterpoint to the complexities of DNA.",
+        "output": "Name:Isabella Rossi, Age:47, Profession:biotechnologist, Hobby:calligraphy"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The courtroom hushed as Michael Zhang, 38, rose to present his case. Environmental law had been his calling for a decade, but few knew of his secret passion for competitive ballroom dancing, where he traded legal arguments for the tango's silent dialogue.",
+        "output": "Name:Michael Zhang, Age:38, Profession:Environmental Lawyer, Hobby:Competitive ballroom dancing"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Samantha Lee, 26, adjusted her camera drone for the perfect aerial shot. Architectural photography had taken her to stunning locations worldwide, but it was in the depths of cave diving where she found true adventure, exploring subterranean worlds few ever see.",
+        "output": "Name:Samantha Lee, Age:26, Profession:Architectural Photographer, Hobby:Cave Diving"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Chef Antoine Dubois, 52, expertly filleted the fish, his kitchen a symphony of sizzles and chops. His Michelin-starred restaurant was his pride, but it was on the local community theater stage where he truly performed, trading his chef's whites for character roles with gusto.",
+        "output": "Name:Antoine Dubois, Age:52, Profession:Chef, Hobby:Performing in community theater"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Fatima Al-Sayegh, 36, peered into the electron microscope, probing the mysteries of nanotechnology. Her research was pushing the boundaries of science, a stark contrast to the boundless creativity she expressed in her amateur stand-up comedy routines on open mic nights.",
+        "output": "Name:Fatima Al-Sayegh, Age:36, Profession:Researcher, Hobby:Stand-up comedy"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The workshop hummed with activity as Hiroshi Nakamura, 43, shaped another custom surfboard. His handcrafted boards were sought after by pro surfers worldwide, but few knew of his passion for traditional Japanese tea ceremony, where he found zen in the midst of ocean-inspired adrenaline.",
+        "output": "Name:Hiroshi Nakamura, Age:43, Profession:Shaping custom surfboards, Hobby:Traditional Japanese tea ceremony"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Professor Elena Volkov, 59, closed her laptop after another virtual lecture on artificial intelligence. Decades of research had made her a leader in machine learning, but it was in the world of competitive chess where she still found the ultimate test of human cognition.",
+        "output": "Name:Elena Volkov, Age:59, Profession:Professor and researcher in artificial intelligence, Hobby:Competitive chess"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The sound of shears filled the air as Jasper Hawthorne, 34, expertly trimmed another topiary. Landscape design was his profession, transforming gardens into living art. But it was in the digital realm of music production where he found another creative outlet, crafting electronic soundscapes late into the night.",
+        "output": "Name:Jasper Hawthorne, Age:34, Profession:Landscape designer, Hobby:Music production"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Detective Sarah Ng, 41, examined the crime scene photos with a critical eye. Years of solving complex cases had honed her analytical skills, which she now applied to her true passion: creating intricate jigsaw puzzles that challenged even the most patient solvers.",
+        "output": "Name:Sarah Ng, Age:41, Profession:Detective, Hobby:creating intricate jigsaw puzzles"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The gallery buzzed with excitement as Aiden O'Connor, 27, unveiled his latest sculpture. His massive steel creations were a testament to industrial art, a stark contrast to the delicate world of butterfly collecting that occupied his weekends, each specimen a study in fragile beauty.",
+        "output": "Name:Aiden O'Connor, Age:27, Profession:Sculptor, Hobby:Butterfly collecting"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "Dr. Maya Gupta, 38, carefully calibrated the Mars rover prototype. Her work in aerospace engineering was pushing the boundaries of space exploration, but it was in the earthbound pursuit of organic farming where she found grounding, tending to her small plot with scientific precision.",
+        "output": "Name:Maya Gupta, Age:38, Profession:Aerospace engineer, Hobby:Organic farming"
+    },
+    {
+        "instruction": "Extract Name,Age,Profession,and Hobby information from the following text description.",
+        "input": "The classroom erupted in laughter as Mr. Lucas Fernandez, 45, finished his animated retelling of a historical event. Teaching high school history was his calling, but it was in the high-octane world of vintage motorcycle restoration where he truly came alive, bringing the past roaring into the present in more ways than one.",
+        "output": "Name:Lucas Fernandez, Age:45, Profession:high school history teacher, Hobby:vintage motorcycle restoration"
+    }
+]
