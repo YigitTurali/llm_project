@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Logs and local databases
+*.log
+*.sqlite3
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Generated documentation
+docs/_build/
+
+# Custom directories to ignore
+outputs/
+models/
+logs/
